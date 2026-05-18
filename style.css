@@ -20,7 +20,7 @@ header .logo{padding:10px 0px;}
 header nav{text-align:center;}
 header ul{flex-direction: column;}
 header ul li a{padding:10px 15px; text-transform:uppercase; color:#47A1D5; border-bottom:1px solid transparent; }
-header ul li a:hover,header ul li.active a{border-bottom:1px solid #76A1BC; font-weight:bold;border-bottom-width:3px;}
+header ul li a:hover{border-bottom:1px solid #76A1BC; font-weight:bold;border-bottom-width:3px;}
 .social-icon{padding:10px 0px;}
 .social-icon a i{color:#47A1D5; font-size:20px; padding:0px 10px;}
 }
