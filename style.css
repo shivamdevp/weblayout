@@ -12,6 +12,10 @@ header{width:100%; padding:0px 40px;  background-color: #f5f6f7; border-bottom:1
 header.logo img{width:100%;}
 header ul li a{padding:20px 20px; text-transform:uppercase; color:#47A1D5; border-bottom:1px solid transparent; }
 header ul li a:hover,header ul li.active a{border-bottom:1px solid #76A1BC; font-weight:bold;border-bottom-width:5px;}
+header .dropdown{width:143px; background-color:#47A1D5; position:absolute;left:37%;border-radius:5px; display:none;}
+header .dropdown a{width:100%; color:#fff; text-align:center; font-size:18px; padding:10px 20px;}
+header .dropdown a:hover{background-color:#fff; color:#47A1D5;}
+header ul li:hover .dropdown{display:block;}
 .social-icon a i{color:#47A1D5; font-size:20px; padding:0px 10px;}
 
 .hero-section{width:900px; margin:0 auto; padding-top:40px;}
@@ -53,6 +57,9 @@ header ul{flex-direction: column;}
 header ul li a{padding:10px 15px; text-transform:uppercase; color:#47A1D5; border-bottom:1px solid transparent; }
 header ul li.active a{ font-weight:bold;}
 header ul li.active a:hover{border-bottom:1px solid #76A1BC; font-weight:bold; }
+header .dropdown{width:100px; background-color:#47A1D5; position:absolute;left:62%;border-radius:5px; display:none; top:10%;}
+header ul li a i{display:none;}
+header ul li:hover .dropdown{display:block;}
 .social-icon{padding:10px 0px;}
 .social-icon a i{color:#47A1D5; font-size:25px; padding:0px 15px;}
 
